@@ -1,0 +1,36 @@
+$ openscad -o name-tag.stl name-tag.scad
+Geometries in cache: 6
+Geometry cache size in bytes: 172408
+CGAL Polyhedrons in cache: 2
+CGAL cache size in bytes: 930336
+Total rendering time: 0:00:01.766
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:      618
+   Halfedges:    1854
+   Edges:         927
+   Halffacets:    634
+   Facets:        317
+   Volumes:         2
+[exit 0]
+/home/hatch/workspace/openscad-build/out/name-tag.stl: format=ascii bytes=197723 triangles=1236
+  bbox x 0.00..76.00  y 0.00..28.00  z 0.00..4.20
+  size 76.00 x 28.00 x 4.20   signed volume 6561.8
+$ openscad -D name="Grace" -o name-tag-grace.stl name-tag.scad
+Geometries in cache: 6
+Geometry cache size in bytes: 276088
+CGAL Polyhedrons in cache: 2
+CGAL cache size in bytes: 1409056
+Total rendering time: 0:00:04.829
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:      974
+   Halfedges:    2922
+   Edges:        1461
+   Halffacets:    992
+   Facets:        496
+   Volumes:         2
+[exit 0]
+/home/hatch/workspace/openscad-build/out/name-tag-grace.stl: format=ascii bytes=312365 triangles=1948
+  bbox x 0.00..76.00  y 0.00..28.00  z 0.00..4.20
+  size 76.00 x 28.00 x 4.20   signed volume 6659.2

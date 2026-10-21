@@ -1,0 +1,40 @@
+$ time openscad -o rounded.stl rounded.scad
+Geometries in cache: 10
+Geometry cache size in bytes: 571472
+CGAL Polyhedrons in cache: 2
+CGAL cache size in bytes: 3664800
+Total rendering time: 0:00:00.892
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:     1352
+   Halfedges:    7312
+   Edges:        3656
+   Halffacets:   4616
+   Facets:       2308
+   Volumes:         3
+
+real	0m1.007s
+user	0m0.912s
+sys	0m0.034s
+[exit 0]
+/home/hatch/workspace/openscad-build/out/rounded.stl: format=ascii bytes=500981 triangles=2696
+  bbox x 0.00..97.00  y 0.00..40.00  z 0.00..10.00
+  size 97.00 x 40.00 x 10.00   signed volume 22623.6
+$ time openscad -o primitives.stl primitives.scad (comparison)
+Geometries in cache: 5
+Geometry cache size in bytes: 112120
+CGAL Polyhedrons in cache: 1
+CGAL cache size in bytes: 986496
+Total rendering time: 0:00:00.282
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:      442
+   Halfedges:    2284
+   Edges:        1142
+   Halffacets:   1412
+   Facets:        706
+   Volumes:         4
+
+real	0m0.333s
+user	0m0.283s
+sys	0m0.015s

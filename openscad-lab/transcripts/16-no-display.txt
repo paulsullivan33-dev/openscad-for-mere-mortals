@@ -1,0 +1,13 @@
+$ openscad -o nodisplay.png primitives.scad (no xvfb, no DISPLAY)
+Compiling design (CSG Products normalization)...
+Normalized CSG tree has 3 elements
+Unable to open a connection to the X server.
+DISPLAY=
+Can't create OpenGL OffscreenView. Code: -1.
+Geometries in cache: 3
+Geometry cache size in bytes: 56424
+CGAL Polyhedrons in cache: 0
+CGAL cache size in bytes: 0
+Total rendering time: 0:00:00.001
+/bin/bash: line 9: 20311 Segmentation fault      env -u DISPLAY openscad -o $O/nodisplay.png primitives.scad
+[exit 139]

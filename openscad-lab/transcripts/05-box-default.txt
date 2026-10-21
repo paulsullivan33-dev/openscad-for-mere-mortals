@@ -1,0 +1,24 @@
+$ openscad -o project-box.stl project-box.scad (stderr kept: watch for ECHO lines)
+ECHO: "inside opening: 75.2 x 50.2"
+ECHO: "rim size: 74.4 x 49.4"
+Geometries in cache: 6
+Geometry cache size in bytes: 4368
+CGAL Polyhedrons in cache: 3
+CGAL cache size in bytes: 89312
+Total rendering time: 0:00:00.112
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:       32
+   Halfedges:      96
+   Edges:          48
+   Halffacets:     44
+   Facets:         22
+   Volumes:         3
+[exit 0]
+/home/hatch/workspace/openscad-build/out/project-box.stl: format=ascii bytes=7391 triangles=56
+  bbox x 0.00..170.00  y 0.00..55.00  z 0.00..30.00
+  size 170.00 x 55.00 x 30.00   signed volume 60421.1
+$ openscad -o project-box.echo project-box.scad — the echo channel as a file
+[exit 0]
+ECHO: "inside opening: 75.2 x 50.2"
+ECHO: "rim size: 74.4 x 49.4"

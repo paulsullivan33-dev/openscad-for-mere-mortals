@@ -1,0 +1,28 @@
+$ time openscad -D fn=8 -o fn-8.stl fn-demo.scad
+Total rendering time: 0:00:00.000
+
+real	0m0.036s
+user	0m0.015s
+sys	0m0.013s
+$ time openscad -D fn=32 -o fn-32.stl fn-demo.scad
+Total rendering time: 0:00:00.000
+
+real	0m0.035s
+user	0m0.021s
+sys	0m0.013s
+$ time openscad -D fn=128 -o fn-128.stl fn-demo.scad
+Total rendering time: 0:00:00.003
+
+real	0m0.171s
+user	0m0.135s
+sys	0m0.023s
+$ stl_info fn-*.stl
+/home/hatch/workspace/openscad-build/out/fn-8.stl: format=ascii bytes=10944 triangles=60
+  bbox x -18.48..18.48  y -18.48..18.48  z -18.48..18.48
+  size 36.96 x 36.96 x 36.96   signed volume 25832.3
+/home/hatch/workspace/openscad-build/out/fn-32.stl: format=ascii bytes=196310 triangles=1020
+  bbox x -19.90..19.90  y -19.90..19.90  z -19.90..19.90
+  size 39.81 x 39.81 x 39.81   signed volume 32975.9
+/home/hatch/workspace/openscad-build/out/fn-128.stl: format=ascii bytes=3205370 triangles=16380
+  bbox x -19.99..19.99  y -19.99..19.99  z -19.99..19.99
+  size 39.99 x 39.99 x 39.99   signed volume 33476.7

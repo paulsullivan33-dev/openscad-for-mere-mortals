@@ -1,0 +1,19 @@
+$ openscad --export-format 3mf -o project-box.3mf project-box.scad
+ECHO: "inside opening: 75.2 x 50.2"
+ECHO: "rim size: 74.4 x 49.4"
+Geometries in cache: 6
+Geometry cache size in bytes: 4368
+CGAL Polyhedrons in cache: 3
+CGAL cache size in bytes: 89312
+Total rendering time: 0:00:00.031
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:       32
+   Halfedges:      96
+   Edges:          48
+   Halffacets:     44
+   Facets:         22
+   Volumes:         3
+[exit 0]
+-rw-rw---- 1 root nogroup 2020 Oct 21 22:18 /home/hatch/workspace/openscad-build/out/project-box.3mf
+-rw-rw---- 1 root nogroup 7391 Oct 21 22:18 /home/hatch/workspace/openscad-build/out/project-box.stl

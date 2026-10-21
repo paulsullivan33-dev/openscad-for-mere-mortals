@@ -1,0 +1,19 @@
+$ openscad -o primitives.stl primitives.scad
+Geometries in cache: 5
+Geometry cache size in bytes: 112120
+CGAL Polyhedrons in cache: 1
+CGAL cache size in bytes: 986496
+Total rendering time: 0:00:00.317
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:      442
+   Halfedges:    2284
+   Edges:        1142
+   Halffacets:   1412
+   Facets:        706
+   Volumes:         4
+[exit 0]
+$ stl_info primitives.stl
+/home/hatch/workspace/openscad-build/out/primitives.stl: format=ascii bytes=158648 triangles=872
+  bbox x 0.00..79.00  y -9.00..20.00  z 0.00..16.00
+  size 79.00 x 29.00 x 16.00   signed volume 10950.0

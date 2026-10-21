@@ -1,0 +1,6 @@
+$ openscad -o syntax-error.stl syntax-error.scad
+ERROR: Parser error: syntax error in file syntax-error.scad, line 6
+Can't parse file 'syntax-error.scad'!
+
+[exit 1]
+ls: cannot access '/home/hatch/workspace/openscad-build/out/syntax-error.stl': No such file or directory

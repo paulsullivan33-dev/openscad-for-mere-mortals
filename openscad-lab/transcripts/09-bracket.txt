@@ -1,0 +1,18 @@
+$ openscad -o bracket.stl bracket.scad
+Geometries in cache: 8
+Geometry cache size in bytes: 30016
+CGAL Polyhedrons in cache: 4
+CGAL cache size in bytes: 724256
+Total rendering time: 0:00:00.360
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:      268
+   Halfedges:     804
+   Edges:         402
+   Halffacets:    272
+   Facets:        136
+   Volumes:         2
+[exit 0]
+/home/hatch/workspace/openscad-build/out/bracket.stl: format=ascii bytes=82369 triangles=548
+  bbox x 0.00..50.00  y 0.00..30.00  z 0.00..50.00
+  size 50.00 x 30.00 x 50.00   signed volume 11182.4

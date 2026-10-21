@@ -1,0 +1,34 @@
+$ xvfb-run -a openscad -o name-tag.png --render --imgsize=800,600 --autocenter --viewall name-tag.scad
+Geometries in cache: 6
+Geometry cache size in bytes: 172408
+CGAL Polyhedrons in cache: 2
+CGAL cache size in bytes: 930336
+Total rendering time: 0:00:01.683
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:      618
+   Halfedges:    1854
+   Edges:         927
+   Halffacets:    634
+   Facets:        317
+   Volumes:         2
+[exit 0]
+$ xvfb-run -a openscad -o project-box.png --render --imgsize=800,600 --autocenter --viewall project-box.scad
+ECHO: "inside opening: 75.2 x 50.2"
+ECHO: "rim size: 74.4 x 49.4"
+Geometries in cache: 6
+Geometry cache size in bytes: 4368
+CGAL Polyhedrons in cache: 3
+CGAL cache size in bytes: 89312
+Total rendering time: 0:00:00.035
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:       32
+   Halfedges:      96
+   Edges:          48
+   Halffacets:     44
+   Facets:         22
+   Volumes:         3
+[exit 0]
+name-tag.png: size=800x600 background=(255, 255, 229) non-background pixels=75376 (15.7%)
+project-box.png: size=800x600 background=(255, 255, 229) non-background pixels=82296 (17.1%)

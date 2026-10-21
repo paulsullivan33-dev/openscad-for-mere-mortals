@@ -1,0 +1,18 @@
+$ openscad -o transforms.stl transforms.scad
+Geometries in cache: 11
+Geometry cache size in bytes: 218248
+CGAL Polyhedrons in cache: 2
+CGAL cache size in bytes: 4981840
+Total rendering time: 0:00:01.170
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:     1048
+   Halfedges:    5832
+   Edges:        2916
+   Halffacets:   3756
+   Facets:       1878
+   Volumes:         6
+[exit 0]
+/home/hatch/workspace/openscad-build/out/transforms.stl: format=ascii bytes=390403 triangles=2076
+  bbox x -11.31..99.96  y 0.00..33.96  z 0.00..15.96
+  size 111.28 x 33.96 x 15.96   signed volume 11593.7

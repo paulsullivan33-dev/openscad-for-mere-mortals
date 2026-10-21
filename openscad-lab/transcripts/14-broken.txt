@@ -1,0 +1,108 @@
+$ openscad -o broken.stl broken.scad
+WARNING: Ignoring unknown variable 'widht' in file broken.scad, line 8
+WARNING: Unable to convert cube(size=[undef, 20, 10], ...) parameter to a number or a vec3 of numbers in file broken.scad, line 8
+Geometries in cache: 1
+Geometry cache size in bytes: 728
+CGAL Polyhedrons in cache: 0
+CGAL cache size in bytes: 0
+Total rendering time: 0:00:00.000
+   Top level object is a 3D object:
+   Facets:          6
+[exit 0]
+-rw-rw---- 1 root nogroup 1449 Oct 21 22:19 /home/hatch/workspace/openscad-build/out/broken.stl
+solid OpenSCAD_Model
+  facet normal -0 0 1
+    outer loop
+      vertex 0 1 1
+      vertex 1 0 1
+      vertex 1 1 1
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 1 0 1
+      vertex 0 1 1
+      vertex 0 0 1
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 0 0 0
+      vertex 1 1 0
+      vertex 1 0 0
+    endloop
+  endfacet
+  facet normal -0 0 -1
+    outer loop
+      vertex 1 1 0
+      vertex 0 0 0
+      vertex 0 1 0
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 1
+      vertex 0 0 1
+    endloop
+  endfacet
+  facet normal 0 -1 -0
+    outer loop
+      vertex 1 0 1
+      vertex 0 0 0
+      vertex 1 0 0
+    endloop
+  endfacet
+  facet normal 1 -0 0
+    outer loop
+      vertex 1 0 1
+      vertex 1 1 0
+      vertex 1 1 1
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 1 1 0
+      vertex 1 0 1
+      vertex 1 0 0
+    endloop
+  endfacet
+  facet normal 0 1 -0
+    outer loop
+      vertex 1 1 0
+      vertex 0 1 1
+      vertex 1 1 1
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 0 1 1
+      vertex 1 1 0
+      vertex 0 1 0
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 0 0 0
+      vertex 0 1 1
+      vertex 0 1 0
+    endloop
+  endfacet
+  facet normal -1 -0 0
+    outer loop
+      vertex 0 1 1
+      vertex 0 0 0
+      vertex 0 0 1
+    endloop
+  endfacet
+endsolid OpenSCAD_Model
+$ openscad --hardwarnings -o broken2.stl broken.scad
+WARNING: Ignoring unknown variable 'widht' in file broken.scad, line 8
+TRACE: called by 'cube' in file broken.scad, line 8
+Geometries in cache: 1
+Geometry cache size in bytes: 0
+CGAL Polyhedrons in cache: 0
+CGAL cache size in bytes: 0
+Total rendering time: 0:00:00.000
+Current top level object is empty.
+[exit 1]

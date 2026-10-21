@@ -1,0 +1,26 @@
+site_name: OpenSCAD for Mere Mortals
+site_description: Plain-language modelling in OpenSCAD. Writing solid geometry as code, primitives, transformations, booleans, variables and modules, parametric designs changed from the command line, text as geometry, measured exports for printing, practised on a project box, a plant pot, a name tag, and a bracket.
+site_url: https://paulsullivan33-dev.github.io/openscad-for-mere-mortals/
+
+# Guides live at the repo root (nice for GitHub browsing).
+# The deploy workflow copies them into docs/ before building.
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - What OpenSCAD Is: what-openscad-is.md
+  - First Shapes: first-shapes.md
+  - Moving Things: moving-things.md
+  - Adding and Cutting: adding-and-cutting.md
+  - Variables and Modules: variables-and-modules.md
+  - Rounding and Blending: rounding-and-blending.md
+  - Flat to Solid: flat-to-solid.md
+  - The Parametric Box: the-parametric-box.md
+  - Words in Plastic: words-in-plastic.md
+  - From Screen to Printer: from-screen-to-printer.md
+  - Recipes: recipes.md
+  - The Neighbours: the-neighbours.md
+  - Troubleshooting: troubleshooting.md
+  - Glossary: glossary.md
+  - Writing Criteria: criteria.md
