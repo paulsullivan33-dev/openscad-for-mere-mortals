@@ -137,3 +137,19 @@ and repaired teaches more than one you
 have only read — and keep `broken.scad`
 for last, or for the day a real model
 exports suspiciously well.
+
+---
+
+## Part of the series
+
+This guide is one of the [For Mere Mortals](https://paulsullivan33-dev.github.io/mere-mortals/) guides: plain-language guides to the tools programmers and makers use.
+
+Related guides:
+
+- [CAD for Mere Mortals](https://paulsullivan33-dev.github.io/cad-for-mere-mortals/)
+- [3D Printing for Mere Mortals](https://paulsullivan33-dev.github.io/3d-printing-for-mere-mortals/)
+- [KiCad for Mere Mortals](https://paulsullivan33-dev.github.io/kicad-for-mere-mortals/)
+
+## License
+
+The writing in this guide is licensed under [CC BY 4.0](https://github.com/paulsullivan33-dev/openscad-for-mere-mortals/blob/main/LICENSE). Code examples and lab scripts are licensed under the [MIT License](https://github.com/paulsullivan33-dev/openscad-for-mere-mortals/blob/main/LICENSE-CODE).
